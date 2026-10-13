@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Velox | Poly Track</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #121212;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            flex-shrink: 0;
+            background: #1f1f1f;
+            padding: 15px 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            box-sizing: border-box;
+            z-index: 10;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .game-container {
+            flex-grow: 1;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: relative;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poly Track</h1>
+        <a href="index.html" class="btn">← Back to Hub</a>
+        <button id="fullscreenBtn" class="btn">Go Fullscreen</button>
+    </header>
+
+    <div class="game-container" id="gameContainer">
+        <!-- Direct asset subdomain URL to eliminate layout bugs and thin lines -->
+        <iframe id="gameFrame" src="https://app-polytrack.kodub.com/" allowfullscreen allow="autoplay; fullscreen; camera; focus-without-user-activation; pointer-lock"></iframe>
+    </div>
+
+    <script>
+        const elem = document.getElementById("gameContainer");
+        const btn = document.getElementById("fullscreenBtn");
+
+        btn.addEventListener("click", () => {
+            if (!document.fullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        });
+
+        document.addEventListener("fullscreenchange", () => {
+            if (document.fullscreenElement) {
+                btn.textContent = "Exit Fullscreen";
+            } else {
+                btn.textContent = "Go Fullscreen";
+            }
+        });
+    </script>
+</body>
+</html>
