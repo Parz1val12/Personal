@@ -1,0 +1,15 @@
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.AssemblyInfoInputs.cache
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.AssemblyInfo.cs
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.csproj.CoreCompileInputs.cache
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.sourcelink.json
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\bin\Debug\net8.0-windows\AsteroidsGame.exe
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\bin\Debug\net8.0-windows\AsteroidsGame.deps.json
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\bin\Debug\net8.0-windows\AsteroidsGame.runtimeconfig.json
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\bin\Debug\net8.0-windows\AsteroidsGame.dll
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\bin\Debug\net8.0-windows\AsteroidsGame.pdb
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.dll
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\refint\AsteroidsGame.dll
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.pdb
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\AsteroidsGame.genruntimeconfig.cache
+C:\Users\Ian\OneDrive\Documents\GitHub\Personal\C#\AsteroidsGame\obj\Debug\net8.0-windows\ref\AsteroidsGame.dll
